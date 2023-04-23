@@ -7,6 +7,7 @@
 
 # database
 /db/pb_data
+/db/pb_migrations
 
 # testing
 /coverage
