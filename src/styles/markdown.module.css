@@ -1,0 +1,51 @@
+.markdown {
+	/*base*/
+	@apply prose prose-sm container mx-auto p-4;
+
+	/*dark*/
+	@apply dark:prose-invert;
+
+	/*media queries*/
+	@apply sm:prose-sm md:prose-base lg:prose-lg;
+
+	/*headings*/
+	@apply prose-h1:my-2 prose-h1:mx-1;
+	@apply prose-h2:my-2 prose-h2:mx-1 prose-h2:mt-4;
+	@apply prose-h3:my-2 prose-h3:mx-1 prose-h3:mt-4;
+	@apply prose-h4:my-2 prose-h4:mx-1 prose-h4:mt-4;
+	@apply prose-h5:my-2 prose-h5:mx-1 prose-h5:mt-4;
+	@apply prose-h6:my-2 prose-h6:mx-1 prose-h6:mt-4;
+
+	/*paragraph*/
+	@apply prose-p:m-1 prose-p:mb-2;
+
+	/*blockquote*/
+	@apply prose-blockquote:m-1;
+
+	/*pre*/
+	@apply prose-pre:m-1 prose-pre:p-2;
+
+	/*code*/
+	@apply prose-code:text-sm prose-code:sm:text-xs;
+
+	/*ol*/
+	@apply prose-ol:m-3 prose-ol:my-2;
+
+	/*ul*/
+	@apply prose-ul:m-2 prose-ul:ml-3 prose-ul:my-2;
+
+	/*li*/
+	@apply prose-li:m-1;
+
+	/*img*/
+	@apply prose-img:m-1;
+
+	/*table*/
+	@apply prose-table:m-1 prose-table:my-2;
+
+	/*th*/
+	@apply prose-th:pb-1;
+
+	/*td*/
+	@apply prose-td:py-2;
+}

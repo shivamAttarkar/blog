@@ -9,6 +9,9 @@
 /db/pb_data
 /db/pb_migrations
 
+# plans
+/plans
+
 # testing
 /coverage
 
