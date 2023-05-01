@@ -8,9 +8,12 @@ const slackey = Slackey({
 export default function Header() {
 	return (
 		<header
-			className={`text-center ${slackey.className} p-3 text-xl border-b-2 bg-white select-none`}
+			className={
+				`${slackey.className}` +
+				" --navbar justify-center border-b-2 bg-base-100"
+			}
 		>
-			Lazy.dev
+			<button className=" --btn --btn-ghost ">Lazy.dev</button>
 		</header>
 	);
 }

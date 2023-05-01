@@ -1,14 +1,9 @@
-import { Sigmar_One } from "next/font/google";
-const sigmar = Sigmar_One({
-	weight: "400",
-	subsets: ["latin"],
-});
 export default function Footer() {
 	return (
-		<footer
-			className={`select-none p-3 text-center text-sm ${sigmar.className}`}
-		>
-			@copyright 2023
+		<footer className=" relative bottom-0 mt-auto --footer bg-neutral justify-center">
+			<p className=" --footer-title text-xs text-white m-0 p-4">
+				@copyright 2023
+			</p>
 		</footer>
 	);
 }
